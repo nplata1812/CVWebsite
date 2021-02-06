@@ -18,33 +18,50 @@ body {
 
 .hero{
     position: relative;
-    display: flex;
     background-repeat: no-repeat;
     justify-content: center;
     background-size: auto;
 }
 
 .hero .menu{
-    position: absolute;
+    position: sticky;
     width: 100%;
     background-color: #242424;
 }
+
 
 .hero img{
     background-color: #242424;
     width: 100%;
-    position: absolute;
-    top: 30px;
-    left: 0;
 }
 .hero .menu a{
     font-size: 20px;
-    padding: 0px 10px;
+    padding: 0px 35px;
     color: #DE3105;
 }
 
 main{
-    position: relative;
-    display: flex;
-    justify-content: center;
+    background-color: #eae7df;
+    margin-top: 10px;
 }
+
+main section{
+    padding: 10px 15px;
+}
+
+main section p{
+    margin: 0;
+}
+main section .row{
+    display: flex;
+    align-items: center;
+}
+main .tastes{
+    margin: 15px;
+}
+main .tastes .item{
+    margin: 15px;
+}
+
+
+
