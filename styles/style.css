@@ -82,7 +82,7 @@ main .tastes  .videogames .card{
 }
 
 .carousel-item img{
-    border-style: dotted dashed;
+    /* border-style: dotted dashed; */
     border-radius: 3%;
 }
 
@@ -90,4 +90,38 @@ main .skills{
     margin: 15px;
 }
 
+main .skills .logos{
+    width: 300px;
+}
 
+main .skills .html{
+    width: 360px;
+}
+
+.projects{
+    margin: 15px;
+
+}
+.formation{
+    margin: 15px;
+}
+
+.contact{
+    height:auto ;
+    width: inherit;
+    padding: 15px 15px;
+    margin: 0;
+    background-color: #242424;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact .contact-title{
+    width: auto;
+    color: #E4BE2B;
+    margin-left: 20px;
+}
+
+.contact .contact-icons{
+    margin-left: 20px;
+}
