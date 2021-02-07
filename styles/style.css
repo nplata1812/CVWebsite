@@ -1,5 +1,7 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');x
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
 html {
     font-size: 100%;
     box-sizing: border-box;
@@ -125,3 +127,190 @@ main .skills .html{
 .contact .contact-icons{
     margin-left: 20px;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    *{
+        font-size: 8px;
+    }
+    .hero .menu a{
+        font-size: 6px;
+        padding: 0px 10px;
+    }
+
+    .nes-charmander{
+        display: none;
+    }
+
+    
+    main .skills .logos{
+        width: 50px;
+        margin-top: 10px;
+    }
+
+    .nes-icon.is-large.heart {
+        display: none;
+    }
+    .nes-icon.is-medium.heart{
+        display: none;
+    }
+    main .tastes .card{
+        margin: 0;
+    }
+    main .tastes .card h4{
+        font-size: inherit;
+    }
+    .card-body{
+        padding: 0;
+    }
+
+    .carousel-caption{
+        padding-bottom: 0;
+        bottom: 5px;
+    }
+
+    .nes-progress{
+        height: 10px;
+        width: 90%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    *{
+        font-size: 6px;
+    }
+    .hero .menu a{
+        font-size: 10px;
+        padding: 0px 10px;
+    }
+
+
+    .nes-progress{
+        height: 10px;
+        width: 90%;
+    }
+    .nes-icon.is-large.heart {
+        display: none;
+    }
+    .nes-icon.is-medium.heart{
+        display: none;
+    }
+    .carousel-caption{
+        padding-bottom: 0;
+        bottom: 5px;
+    }
+
+    main .skills .logos{
+        width: 100px;
+        margin-top: 10px;
+    }
+
+    .nes-charmander{
+        display: none;
+    }
+    .card-title{
+        font-size: 8.5px;
+    }
+    
+    .card-body{
+        padding: 0;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+        
+    *{
+        font-size: 10px;
+    }
+    .nes-icon.is-large.heart {
+        display: none;
+    }
+    .nes-icon.is-medium.heart {
+        margin-bottom: 0;
+        display: none;
+    }
+    .nes-progress{
+        height: 20px;
+    }
+    .nes-icon.is-small.heart{
+        display: inline-block;
+    }
+    .carousel-caption h5{
+        font-size: 10px;
+    }
+
+    .hero .menu a{
+        font-size: 10px;
+        padding: 0px 10px;
+    }
+
+    .card-title{
+        font-size: 13px;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    * {
+        font-size: 12px;
+    }
+    .hero .menu a{
+        font-size: 12px;
+    }
+    
+    .nes-icon.is-large.heart {
+        display: none;
+    }
+
+        
+    .nes-icon.is-medium.heart {
+        margin-bottom: 25px;
+        display: inline-block;
+    }
+    .nes-icon.is-small.heart{
+        display: none;
+    }
+
+    .card-title{
+        font-size: 15px;
+    }
+    main .skills .logos{
+        width: 300px;
+    }
+
+    .nes-charmander{
+        display: inline-block;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .nes-icon.is-medium.heart {
+        display: none;
+    }
+    .nes-progress{
+        height: 30px;
+        width: 100%;
+    }
+    
+    .card-title{
+        font-size: 20px;
+    }
+    main .skills .logos{
+        width: 300px;
+    }
+    .nes-icon.is-large.heart{
+        display: inline-block;
+    }
+
+    .nes-charmander{
+        display: inline-block;
+    }
+}
+
+
+
+
+
+
