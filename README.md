@@ -1,6 +1,6 @@
 # Personal Website
-https://svargas.co/
+https://svargasv.co/
 
 En caso el responsive no funcione probar con
 
-http://svargas.co/
+http://svargasv.co/
