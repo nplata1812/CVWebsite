@@ -133,6 +133,13 @@ main .skills .html{
     *{
         font-size: 8px;
     }
+
+    h5{
+        font-size: 8.5px;
+    }
+    main .tastes .videogames{
+        display: block;
+    }
     .hero .menu a{
         font-size: 6px;
         padding: 0px 10px;
@@ -157,6 +164,10 @@ main .skills .html{
     main .tastes .card{
         margin: 0;
     }
+
+    .card-title h5 {
+        font: 5px;
+    }
     main .tastes .card h4{
         font-size: inherit;
     }
@@ -172,6 +183,10 @@ main .skills .html{
     .nes-progress{
         height: 10px;
         width: 90%;
+    }
+
+    .contact .contact-title {
+        font-size: 10px;
     }
 }
 
@@ -286,8 +301,18 @@ main .skills .html{
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    *{
+        font-size: 100%;
+    }
     .nes-icon.is-medium.heart {
         display: none;
+    }
+    .nes-icon.is-small.heart {
+        display: none;
+    }
+
+    .hero .menu a{
+        font-size: 20px;
     }
     .nes-progress{
         height: 30px;
@@ -302,6 +327,9 @@ main .skills .html{
     }
     .nes-icon.is-large.heart{
         display: inline-block;
+    }
+    .carousel-caption h5{
+        font-size: 1.5rem;
     }
 
     .nes-charmander{
