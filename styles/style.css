@@ -84,7 +84,6 @@ main .tastes  .videogames .card{
 }
 
 .carousel-item img{
-    /* border-style: dotted dashed; */
     border-radius: 3%;
 }
 
@@ -188,7 +187,7 @@ main .skills .html{
     .contact .contact-title {
         font-size: 10px;
     }
-    .carousel-item img{
+    .carousel-item.active img{
         width: 150px;
     }
 }
@@ -239,7 +238,7 @@ main .skills .html{
         padding: 0;
     }
 
-    .carousel-item img{
+    .carousel-item.active img{
         width: 450px;
     }
 }
@@ -275,7 +274,7 @@ main .skills .html{
         font-size: 13px;
     }
 
-    .carousel-item img{
+    .carousel-item.active img{
         width: 450px;
     }
     main .tastes .videogames{
@@ -317,7 +316,7 @@ main .skills .html{
         display: inline-block;
     }
 
-    .carousel-item img{
+    .carousel-item.active img{
         width: 850px;
     }
     main .tastes .videogames{
@@ -360,7 +359,7 @@ main .skills .html{
     .nes-charmander{
         display: inline-block;
     }
-    .carousel-item img{
+    .carousel-item.active img{
         width: 1000px;
     }
 
