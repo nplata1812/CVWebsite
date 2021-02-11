@@ -190,6 +190,10 @@ main .skills .html{
     .carousel-item.active img{
         width: 150px;
     }
+
+    .carousel-item img{
+        width: 150px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -241,6 +245,10 @@ main .skills .html{
     .carousel-item.active img{
         width: 450px;
     }
+
+    .carousel-item img{
+        width: 450px;
+    }
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -275,6 +283,11 @@ main .skills .html{
     }
 
     .carousel-item.active img{
+        width: 450px;
+    }
+
+
+    .carousel-item img{
         width: 450px;
     }
     main .tastes .videogames{
@@ -319,6 +332,10 @@ main .skills .html{
     .carousel-item.active img{
         width: 850px;
     }
+
+    .carousel-item img{
+        width: 850px;
+    }
     main .tastes .videogames{
         display: flex;
     }
@@ -360,6 +377,10 @@ main .skills .html{
         display: inline-block;
     }
     .carousel-item.active img{
+        width: 1000px;
+    }
+
+    .carousel-item img{
         width: 1000px;
     }
 
