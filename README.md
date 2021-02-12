@@ -1,6 +1,6 @@
 # Personal Website
 https://svargasv.co/
 
-En caso el responsive no funcione probar con
+Algunas estadisticas: 
 
-http://svargasv.co/
+![enter image description here](https://i.ibb.co/YhnTtMG/svargasvlighroom.png)
